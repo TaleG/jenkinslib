@@ -44,7 +44,7 @@ pipeline {
                     script {
                         println("代码扫描")
                         
-                        tools.PrintMes("this is my lib!")
+                        tools.PrintMes("this is my lib!", 'green')
                     }
                 }
             }
